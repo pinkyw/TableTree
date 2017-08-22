@@ -1,0 +1,48 @@
+
+.m-TableTree {
+  width: 100%;
+  line-height: 32px;
+  border-top: 1px solid #dfe6ec;
+  border-left: 1px solid #dfe6ec;
+  .ivu-icon-help-circled {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #4990E2;
+  }
+}
+
+.m-TableTreeHeader {
+  th {
+    border-right: 1px solid #dfe6ec;
+    border-bottom: 1px solid #dfe6ec;
+    background-color: #eef1f6;
+    padding: 5px 0;
+  }
+}
+
+.m-TableTreeBody {
+  td {
+    text-align: center;
+    border-right: 1px solid #dfe6ec;
+    border-bottom: 1px solid #dfe6ec;
+    span {
+      padding: 5px 0;
+    }
+    .expandIcon{
+      color: #1695e8;
+      font-weight: bold;
+      font-size: 22px;
+      cursor: pointer;
+    }
+  }
+  .tableTreeCell-0 {
+    text-align: left;
+    padding-left: 30px;
+    span {
+      float: left;
+    }
+  }
+  .noresult {
+    height: 200px;
+  }
+}

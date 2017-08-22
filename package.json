@@ -1,0 +1,42 @@
+{
+  "name": "table-tree",
+  "version": "1.0.0",
+  "description": "表格树组件",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && webpack-dev-server --open --inline --hot --port 9094 --content-base ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinkyw/TableTree.git"
+  },
+  "keywords": [
+    "table",
+    "tree",
+    "tableTree"
+  ],
+  "author": "PinkyW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pinkyw/TableTree/issues"
+  },
+  "homepage": "https://github.com/pinkyw/TableTree#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "vue": "^2.4.2",
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "css-loader": "^0.28.5",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "node-sass": "^4.5.3",
+    "optimize-css-assets-webpack-plugin": "^3.1.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "vue-loader": "^13.0.4",
+    "vue-template-compiler": "^2.4.2",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
