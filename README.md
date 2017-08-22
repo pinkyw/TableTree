@@ -1,7 +1,7 @@
 # TableTree
 表格树组件
 
-<img src="./examples/tabletree.jpg">
+![image](./examples/tabletree.gif)
 
 ## install && run
 
